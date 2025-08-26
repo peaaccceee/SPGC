@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +43,8 @@
 
 .second-cont {
     display: flex;
-    /* justify-content: space-between; */
+    color: white;
+    /* font: 'Karla', sans-serif; */
 }
 
 .one {
@@ -50,5 +54,14 @@
 }
 
 .two {
-    background-color: aqua;
+    background-color: #31e0dd;
+    padding: 40px;
+    width: 50%;
+}
+
+.text h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* font: 'Karla', sans-serif; */
+    /* gap: 10px; */
 }
