@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
 * {
     margin: 0;
@@ -27,6 +26,7 @@
     flex-direction: column;
     padding: 40px;
     gap: 10px;
+    font-family: 'Karla', sans-serif;
 
 }
 .first-cont h1 {
@@ -44,7 +44,7 @@
 .second-cont {
     display: flex;
     color: white;
-    /* font: 'Karla', sans-serif; */
+    font-family: 'Karla', sans-serif;
 }
 
 .one {
@@ -62,6 +62,10 @@
 .text h1 {
     font-size: 20px;
     margin-bottom: 10px;
-    /* font: 'Karla', sans-serif; */
-    /* gap: 10px; */
+}
+
+.sub-text {
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
 }
