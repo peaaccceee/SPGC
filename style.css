@@ -15,9 +15,8 @@
 }
 
 .child {
-    width: 700px;
+    width: 620px;
     background-color: white;
-    /* padding: 40px; */
     border-radius: 10px;
 }
 
@@ -51,12 +50,14 @@
     background-color: #2ab2afff;
     padding: 40px;
     width: 50%;
+    border-bottom-left-radius: 10px;
 }
 
 .two {
-    background-color: #31e0dd;
+    background-color: #33c4c1;
     padding: 40px;
     width: 50%;
+    border-bottom-right-radius: 10px;
 }
 
 .text h1 {
@@ -64,8 +65,50 @@
     margin-bottom: 10px;
 }
 
+.text p {
+    font-size: 15px;
+}
+
 .sub-text {
     display: flex;
-    gap: 10px;
-    /* align-items: center; */
+    gap: 8px;
+}
+
+.sub-text h1 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-text p {
+    font-size: 12px;
+    font-weight: 150;
+    font-family: 'Karla', sans-serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #c0df34ff;
+    border-radius: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.two h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.two p {
+    font-weight: 200;
+    font-size: 12px;
+    margin-bottom: 5px;
 }
